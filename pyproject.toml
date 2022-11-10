@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "projectname"
+version = "0.0.0"
+authors = [
+  { name="Magne Eik Lauritzen", email="mag.lauritzen@gmail.com" },
+]
+description = ""
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+]
+
+[project.urls]
+"Homepage" = ""
+"Bug Tracker" = ""
